@@ -34,14 +34,14 @@ public class MainActivity extends AppCompatActivity {
         mBtn1.setOnClickListener(new View.OnClickListener() { /*이름이 없는 익명의 클래스를 생성(Anonymous클래스 생성)*/
             @Override
             public void onClick(View v) { /*자동으로 써지는데, public void ~~~가 안뜨면 View.OnClickListener에서 alt + enter*/
-                /*코드 작성*/
+                // 코드 작성
                 Intent intent = new Intent( MainActivity.this, SubActivity.class);
                 startActivity(intent);
             }
         });
     }
 
-//    @Ovrride
+    @Ovrride
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
