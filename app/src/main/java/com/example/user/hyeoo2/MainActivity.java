@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 // 코드 작성
                 Intent intent = new Intent( MainActivity.this, NextActivity.class);
                 startActivity(intent);
-            }
+            } // 메인에서 Next페이지로 넘어가는 이벤트 처리
         });
 
 
